@@ -3,6 +3,7 @@ package main
 //This is a developing project
 
 import (
+
  "bufio"
  "fmt"
  "os"
@@ -59,3 +60,6 @@ func Div(a float32, b float32) float32 {
 
 
 
+//I have to learn the geen framework and convert the calculator 
+//code to api with this framework.
+//How to create an api ???
