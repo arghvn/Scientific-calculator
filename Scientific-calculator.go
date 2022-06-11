@@ -9,6 +9,7 @@ import (
  "os"
  "strconv"
  "strings"
+ "math"
 )
 
 func main() {
@@ -39,6 +40,28 @@ func main() {
  case "/":
   fmt.Println(Div(float32(num_1), float32(num_2)))
  }
+var x float64
+	x = math.Sin(x)
+	fmt.Println(x)
+
+var x float64
+    x = math.cos(x)
+	fmt.Println(x)
+
+var x float64
+    x = math.tan(x)
+	fmt.Println(x)
+
+var x float64
+    x = math.cot(x)
+	fmt.Println(x)
+
+
+} 
+
+
+
+	)
  // fmt.Println(number_1, number_2, operation)
 }
 
@@ -58,6 +81,14 @@ func Div(a float32, b float32) float32 {
  return a / b
 }
 
+
+
+func Factorial(number int) int {
+	if (number == 1){
+		return 1
+	}
+	return number* Factorial(number - 1)
+}
 
 
 //I have to learn the geen framework and convert the calculator 
